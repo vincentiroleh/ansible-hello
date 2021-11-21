@@ -1,0 +1,8 @@
+---
+- name: Exercise
+  hosts: localhost
+
+  roles:
+    # - print
+    - prepare
+    - apache
